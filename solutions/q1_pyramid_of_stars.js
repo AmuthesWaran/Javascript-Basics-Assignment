@@ -2,19 +2,20 @@
 
 const buildPyramid = (input) => {
 	var output = ""
+     //printing new line
      for (let i = 1; i <= input; i++) {
           // printing spaces
-          for (let j = 1; j <= input - i; j++) {
+          for (let j = 0; j <= input - i; j++) {
             output = output + " "
           }
           // printing stars
           for (let k = 0; k < i; k++) {
                output = output + "* "
           }
-          output = output + "\n"
+          output = output + " " + "\n"
         }
         return output
-        console.log(output);
+     //    console.log(output);
 
 };
 
