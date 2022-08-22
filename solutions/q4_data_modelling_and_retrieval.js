@@ -41,8 +41,8 @@ let fruits = [
 // to print the given fruit
 const search = what => fruits.find(element => element.name.toLowerCase() === what.toLowerCase())
 
-var found = search("APPLE")
-console.log(found)
+var found = search("banana") //getting the name of a fruit to be retrived
+// console.log(found)
 
 if (found)
     {
@@ -56,14 +56,12 @@ if (found)
     }
 
 // to get all the fruits
-for (let index = 0; index < fruits.length; index++) {
-    const element = fruits[index]
-    console.log(`Fruit Name: ${element.name}`)
-    console.log(`Color: ${element.color}`)
-    console.log(`Price Per KG: ${element.pricePerKg}`)
-    console.log('\n')
+// for (let index = 0; index < fruits.length; index++) {
+//     const element = fruits[index]
+//     console.log(`Fruit Name: ${element.name}`)
+//     console.log(`Color: ${element.color}`)
+//     console.log(`Price Per KG: ${element.pricePerKg}`)
+//     console.log('\n')
+// }
 
-
-}
-
-console.table(fruits)
+// console.table(fruits)

@@ -106,4 +106,4 @@ for (let index = 0; index < students.length; index++) {
     
 }
 
-console.table(students)
+// console.table(students)
